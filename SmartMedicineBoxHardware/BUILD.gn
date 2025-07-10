@@ -1,0 +1,28 @@
+static_library("MedicineBox") {
+    sources = [
+    "src/lcd.c",
+    "src/ds1302.c",
+    "src/fifo.c",
+    "src/hx711.c",
+    "src/sensor.c",
+    "main.c",
+  ]
+
+  include_dirs = [
+    "//utils/native/lite/include",
+    "include",
+    "src/include",
+    "//kernel/liteos_m/components/shell/include",
+    "//base/iot_hardware/peripheral/interfaces/kits",
+    "//device/rockchip/rk2206/adapter/include",
+    "//device/rockchip/rk2206/sdk_liteos/board/include",
+    "//device/rockchip/hardware/lib/hal/inc",
+    "//device/rockchip/hardware/lib/CMSIS/Device/RK2206/Include/",
+    "//third_party/cJSON",
+    "//third_party/musl/porting/liteos_m/kernel/include",
+    "//third_party/paho_mqtt/MQTTPacket/src",
+    "//third_party/paho_mqtt/MQTTClient-C/src",
+  ]
+
+  deps = [ "//device/rockchip/hardware:hardware" ]
+}

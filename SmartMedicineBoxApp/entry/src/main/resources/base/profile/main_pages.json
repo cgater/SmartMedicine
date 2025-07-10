@@ -1,0 +1,21 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/LoginPage",
+    "pages/RegisterPage",
+    "pages/HomePage",
+    "compnent/ComplicationPage",
+    "compnent/AIPage",
+    "compnent/TimerPage",
+    "compnent/LogPage",
+    "compnent/ComlicationDetailPage",
+    "compnent/LockPage",
+    "compnent/NewPage",
+    "compnent/DataPage",
+    "compnent/ControllerPage",
+    "compnent/Swp1Page",
+    "compnent/Swp2Page",
+    "compnent/Swp3Page",
+    "compnent/Swp4Page"
+  ]
+}
